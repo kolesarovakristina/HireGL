@@ -1,39 +1,43 @@
 
 #container{ margin: auto;
-	padding-top: 100px;
+	        padding-top: 40px;
              }
 #table {border:1px solid #D3D3D3;
 height: 400px;}
 
-#pic{background-color:#cccc00; }
+#pic{background-color:rgb(212, 225, 87);
+ }
+ #picture{ padding-bottom: 10px;
+ padding-top: 15px; }
 
-#input{ border-style: solid;
-    border-bottom: thick line;
+#input{ 
+	 border:none;
+    outline: none;
+    display: block;
+    border-bottom:1px solid #bfbfbf;
     border-width: thin;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: #bfbfbf;
     color: #bfbfbf;
-    width: 300px;} 
-.input{
-	border-style: solid;
-    border-color: #cccc00; 
-    border-bottom: thick line;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     width: 300px;
-    text-align: left;
-    font-weight: bold;
+    height: 20px;
+    font-weight: bold;} 
+.input{
+	
+    border:none;
+    outline: none;
+    display: block;
+    width: 100%;
+    border-bottom:2px solid rgb(212, 225, 87);
+    height: 20px; 
 }
 .text{
 	color: #bfbfbf;
 	text-align: left;
 	font-size: 12px;
+	
 }
-#logIn{ font-weight: bold; }
-#button{ background-color:#cccc00;
+
+#log{ padding-top: 20px; }
+#button{ background-color:rgb(212, 225, 87);
 	width:100px;
 	height: 35px; 
 	color: black;
@@ -43,7 +47,7 @@ height: 400px;}
   } 
 .td{ padding-right: 25px;
      padding-left: 25px;
-     width: 300px; }
+    }
 #td{ padding-right: 25px;
 	padding-left: 25px; 
     padding-bottom: 15px;
@@ -52,4 +56,5 @@ height: 400px;}
 
 #error{  color: red;
       font-size: 11px;
-      font-weight: bold;}
+      font-weight: bold;
+      display: none;}
